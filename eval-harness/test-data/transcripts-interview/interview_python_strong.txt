@@ -1,0 +1,24 @@
+RECORDING TYPE: (unknown - router must classify)
+SOURCE: Teams meeting, 2026-06-09
+
+[Interviewer]: Thanks for joining. To start, can you walk me through a backend system you designed end to end?
+
+[Candidate]: Sure. At my last role I owned a payments reconciliation service in Python using FastAPI. It ingested transaction events off a Service Bus queue, deduplicated them, and reconciled against our ledger. I designed it as an idempotent consumer so replays were safe, and I used Postgres with partitioned tables for the high-volume event log.
+
+[Interviewer]: How did you handle scale and failures?
+
+[Candidate]: We did about 2 million events a day. I added a dead-letter queue for poison messages, exponential backoff on retries, and structured logging with correlation IDs so we could trace a single transaction across services. For scale, the consumers were stateless and ran in containers on ECS, so we just scaled horizontally. The Postgres write path was the bottleneck, so I batched inserts and added a read replica for the reporting queries.
+
+[Interviewer]: Suppose two services disagree on the reconciled total. How do you debug that?
+
+[Candidate]: First I'd check the correlation ID trail to find where they diverge. I'd look at whether one service processed a duplicate or missed an event — usually it's an ordering or idempotency issue. I'd reconcile against the source-of-truth ledger and add a regression test capturing that exact event sequence so it can't recur.
+
+[Interviewer]: Have you mentored others?
+
+[Candidate]: Yes, I led two junior engineers. I did weekly design reviews with them and paired on their first production deploys. I find explaining trade-offs out loud helps them and me.
+
+[Interviewer]: Any questions for us?
+
+[Candidate]: How is the team currently handling observability, and what's the biggest reliability pain point right now?
+
+[Interviewer]: Great questions. That's all for today, thank you.

@@ -1,0 +1,20 @@
+RECORDING TYPE: (unknown - router must classify and identify client)
+SOURCE: Teams call recording, 2026-06-09
+
+[Agent]: Hi, is this Taylor? I'm calling from Globex about money you owe.
+
+[Customer]: Uh, who is this again?
+
+[Agent]: Globex. Look, you have an outstanding balance on account GX-44021 and you need to pay it.
+
+[Customer]: I'm actually Taylor's roommate, they're not here.
+
+[Agent]: Well tell Taylor they owe a balance and if they don't pay we'll make sure it ruins their credit and we'll keep calling every day until it's sorted.
+
+[Customer]: That seems a bit aggressive...
+
+[Agent]: That's how it works. Just tell them to pay GX-44021 or there'll be consequences.
+
+[Customer]: Okay, I'll pass it on I guess.
+
+[Agent]: Make sure you do. Bye.

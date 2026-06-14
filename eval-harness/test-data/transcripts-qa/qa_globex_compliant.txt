@@ -1,0 +1,24 @@
+RECORDING TYPE: (unknown - router must classify and identify client)
+SOURCE: Teams call recording, 2026-06-09
+
+[Agent]: Good afternoon, this is Sam calling from Globex Financial. This call is an attempt to collect a debt and may be recorded. Am I speaking with Mr. Taylor Morgan?
+
+[Customer]: Yes, this is Taylor.
+
+[Agent]: Thank you. Before we continue I've confirmed I'm speaking with the account holder. I'm calling regarding the outstanding balance on account GX-44021. Is now an okay time to talk?
+
+[Customer]: Yeah, I've been meaning to deal with that.
+
+[Agent]: I appreciate that. The current balance is overdue, and I want to find an option that works for you. We can set up a payment plan in installments if that helps — would that be useful?
+
+[Customer]: Yes, that would actually really help.
+
+[Agent]: Of course. I can split it into three monthly installments. I'll document that we've agreed to a three-installment plan starting next month. Your reference number for this arrangement is GX-PP-7782.
+
+[Customer]: Thank you for being understanding.
+
+[Agent]: Absolutely. To summarize: a three-month payment plan, first installment next month, reference GX-PP-7782. You'll get a confirmation by email. Is there anything else?
+
+[Customer]: No, thank you.
+
+[Agent]: Thank you, take care.

@@ -1,0 +1,24 @@
+RECORDING TYPE: (unknown - router must classify and identify client)
+SOURCE: Teams call recording, 2026-06-09
+
+[Agent]: Thank you for calling Acme support, my name is Priya. May I have the email address on your Acme account to verify your identity?
+
+[Customer]: Sure, it's jordan.lee@email.com.
+
+[Agent]: Thank you, I've verified your account. How can I help you today?
+
+[Customer]: My AcmeCloud subscription says it's expired but I paid last week.
+
+[Agent]: I understand, that's frustrating. Let me make sure I've got this right — your subscription shows expired even though a payment went through last week, is that correct?
+
+[Customer]: Yes exactly.
+
+[Agent]: Thank you for confirming. I can see a payment was received but it didn't apply to the subscription due to a sync delay. I've manually applied it now and your AcmeCloud access is restored. Your reference number for this is AC-558120.
+
+[Customer]: Oh great, thank you.
+
+[Agent]: You're welcome. Is there anything else I can help you with today?
+
+[Customer]: No that's everything.
+
+[Agent]: Thank you for calling Acme, have a great day.

@@ -1,0 +1,28 @@
+RECORDING TYPE: (unknown - router must classify)
+SOURCE: Teams meeting, 2026-06-09
+
+[Interviewer]: Thanks for joining. Can you walk me through a backend system you designed end to end?
+
+[Candidate]: Um, mostly I worked on tickets that were assigned to me. I fixed bugs in a Python codebase but I didn't really design the system, that was the senior people.
+
+[Interviewer]: Okay. When you had a performance problem, how did you approach it?
+
+[Candidate]: I'd usually ask my lead and they'd tell me what to change. I think once we added an index to a table because something was slow but I don't remember the details.
+
+[Interviewer]: Have you worked with APIs?
+
+[Candidate]: Yeah I called some APIs. I used requests to get data. I haven't really built one from scratch myself.
+
+[Interviewer]: How do you handle errors and retries in a service?
+
+[Candidate]: I put try except around things so it doesn't crash. I'm not sure about retries, we didn't really do that where I was.
+
+[Interviewer]: Have you led or mentored anyone?
+
+[Candidate]: No, I've always been pretty junior.
+
+[Interviewer]: Any questions for us?
+
+[Candidate]: No, I think I'm good.
+
+[Interviewer]: Alright, thanks for your time.
