@@ -1,0 +1,7 @@
+{
+  "changeType": "created",
+  "notificationUrl": "https://<your-flow-http-trigger-url>",
+  "resource": "communications/callRecords",
+  "expirationDateTime": "2026-06-18T00:00:00.0000000Z",
+  "clientState": "meshiq-secret-state"
+}

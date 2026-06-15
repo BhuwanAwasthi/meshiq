@@ -1,0 +1,63 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "MeshIQ — Evaluation needs review",
+      "wrap": true
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        { "title": "Type", "value": "@{triggerOutputs()?['body/evaluator']}" },
+        { "title": "Target", "value": "@{triggerOutputs()?['body/target_name']}" },
+        { "title": "Score", "value": "@{triggerOutputs()?['body/overall_score']}" },
+        { "title": "Recommendation", "value": "@{triggerOutputs()?['body/recommendation']}" },
+        { "title": "Confidence", "value": "@{triggerOutputs()?['body/confidence']}" }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Reasoning",
+      "weight": "Bolder",
+      "wrap": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "@{triggerOutputs()?['body/reasoning_trace']}",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Citations",
+      "weight": "Bolder",
+      "wrap": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "@{triggerOutputs()?['body/citations']}",
+      "wrap": true,
+      "isSubtle": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Approve",
+      "style": "positive",
+      "data": { "decision": "approved" }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Reject",
+      "style": "destructive",
+      "data": { "decision": "rejected" }
+    }
+  ]
+}

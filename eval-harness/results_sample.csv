@@ -1,0 +1,7 @@
+file,recording_type,detected_target,routing_decision,overall_score,recommendation
+interview_python_strong.txt,interview,JOB-001,interview_evaluator,5,strong_hire
+interview_python_weak.txt,interview,JOB-001,interview_evaluator,2,no_hire
+qa_acme_compliant.txt,qa_call,CLIENT-ACME,qa_evaluator,88,pass
+qa_acme_violation.txt,qa_call,CLIENT-ACME,qa_evaluator,45,fail
+qa_globex_compliant.txt,qa_call,CLIENT-GLOBEX,qa_evaluator,90,pass
+qa_globex_violation.txt,qa_call,CLIENT-GLOBEX,qa_evaluator,25,fail

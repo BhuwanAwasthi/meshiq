@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "reasoning_trace": { "type": "array", "items": { "type": "string" } },
+    "recording_type": { "type": "string" },
+    "target_id": { "type": "string" },
+    "target_name": { "type": "string" },
+    "confidence": { "type": "integer" },
+    "routing_decision": { "type": "string" },
+    "identifying_evidence": { "type": "string" }
+  }
+}

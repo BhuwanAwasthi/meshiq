@@ -1,0 +1,7 @@
+file,expected_type,expected_target,expected_outcome
+interview_python_strong.txt,interview,JOB-001,strong hire
+interview_python_weak.txt,interview,JOB-001,no hire
+qa_acme_compliant.txt,qa_call,CLIENT-ACME,pass
+qa_acme_violation.txt,qa_call,CLIENT-ACME,fail
+qa_globex_compliant.txt,qa_call,CLIENT-GLOBEX,pass
+qa_globex_violation.txt,qa_call,CLIENT-GLOBEX,fail

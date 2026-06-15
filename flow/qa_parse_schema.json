@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "target_id": { "type": "string" },
+    "reasoning_trace": { "type": "array", "items": { "type": "string" } },
+    "rule_checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "rule": { "type": "string" },
+          "status": { "type": "string" },
+          "evidence": { "type": "string" },
+          "severity": { "type": "string" }
+        }
+      }
+    },
+    "violations": { "type": "array", "items": { "type": "string" } },
+    "overall_score": { "type": "integer" },
+    "result": { "type": "string" },
+    "citations": { "type": "array", "items": { "type": "string" } },
+    "confidence": { "type": "integer" },
+    "needs_human_review": { "type": "boolean" }
+  }
+}

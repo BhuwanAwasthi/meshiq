@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "target_id": { "type": "string" },
+    "reasoning_trace": { "type": "array", "items": { "type": "string" } },
+    "dimension_scores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "dimension": { "type": "string" },
+          "score": { "type": "integer" },
+          "justification": { "type": "string" }
+        }
+      }
+    },
+    "strengths": { "type": "array", "items": { "type": "string" } },
+    "red_flags": { "type": "array", "items": { "type": "string" } },
+    "overall_score": { "type": "integer" },
+    "recommendation": { "type": "string" },
+    "citations": { "type": "array", "items": { "type": "string" } },
+    "confidence": { "type": "integer" },
+    "needs_human_review": { "type": "boolean" }
+  }
+}

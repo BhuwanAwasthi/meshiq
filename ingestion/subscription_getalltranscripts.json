@@ -1,0 +1,11 @@
+{
+  "changeType": "created",
+  "notificationUrl": "https://<your-flow-http-trigger-url>",
+  "lifecycleNotificationUrl": "https://<your-flow-http-trigger-url>",
+  "resource": "communications/onlineMeetings/getAllTranscripts",
+  "includeResourceData": true,
+  "encryptionCertificate": "<base64-cert>",
+  "encryptionCertificateId": "meshiq-cert-1",
+  "expirationDateTime": "2026-06-16T00:00:00.0000000Z",
+  "clientState": "meshiq-secret-state"
+}
