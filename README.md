@@ -84,7 +84,7 @@ Report: ![MeshIQ architecture](architecture/report.png)
 
 ## Demo
 
-▶️ **Video:** [PASTE YOUR DEMO VIDEO LINK]
+▶️ **Video:** (https://youtu.be/bQS2bTAqMk0) 
 
 The demo runs a regulated collections call with stacked violations (missing debt-collection disclosure, disclosure of account details to a third party, and threats) through the live pipeline. Watch the router identify the client, the evaluator catch all three regulated breaches with citations, and the approval card land in Teams for a one-click decision.
 
