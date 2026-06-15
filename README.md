@@ -66,6 +66,9 @@ guidance, Fabric IQ is the shared context layer for Foundry-built agents.
 *Current depth: Dataverse→Fabric link live + analytics report. A full Fabric IQ
 ontology/knowledge graph over the entities is the documented next step (see
 `fabric-iq/`).*
+Dashboard: ![MeshIQ architecture](architecture/dualiq.png)
+Data Model: ![MeshIQ architecture](architecture/data_model.png)
+Report: ![MeshIQ architecture](architecture/report.png)
 
 ---
 
