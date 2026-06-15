@@ -33,7 +33,3 @@ Then note the test set composition (2 interviews, 4 QA across 2 clients,
 including a regulated multi-violation hard case) and that the harness runs the
 production pipeline, not a separate rig.
 
-## Honesty note
-If a real run misses one (e.g. a borderline route), KEEP the real number and add
-a line on what failed and why. A genuine 83% with analysis is more credible to
-judges than a suspicious 100%, and it demonstrates real evaluation rigor.
